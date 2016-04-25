@@ -51,4 +51,5 @@ do
   fi
 done
 
+export PATH=$PATH:/opt/zookeeper/bin
 su zookeeper -s /bin/bash -c "/opt/zookeeper/bin/zkServer.sh start-foreground"
